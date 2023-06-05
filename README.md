@@ -39,27 +39,8 @@ Windows makes many different versions of Python available through the 'Microsoft
 
 #### Python IDE
 
+If you've already successfully completed the steps outlined in the guide above, and you have a text editor, then you already have everything you need to create and run Python scripts. However, it is recommended that you install an IDE (Integrated Development Environment) because they tend to have lots of features that make writing scripts easier. There are a plethora of IDEs available and if you get really into writing code, it's probably worth road-testing a few and seeing which one(s) you like best. However, give that this course covers both Python and SQL (and maybe more!) it's recommended that you use an IDE that works well with both e.g. [VS Code](https://apps.microsoft.com/store/detail/XP9KHM4BK9FZ7Q)
+<!-- 
 #### SQL client
 
-## Course contents
-
-Much of the content related to Python material has been adapted from sections of the excellent [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/2e/) by Al Sweigert.
-
-### Python
-
-1. Intro to Python basics
-2. Flow control
-3. Functions
-4. Lists
-5. Dictionaries and structuring data
-6. Manipulating strings
-7. Working with dates
-8. Pattern matching and RegEx
-9. Pandas
-10. Jupyter notebooks
-
-### SQL
-
-1. SQL Basics
-2. Database design
-3. Working with SQL programmatically
+There are a range of SQL clients, many of which would be suitable for following the contents of this course. [Azure Data Studio]() (as the name suggests) integrates very well with -->
