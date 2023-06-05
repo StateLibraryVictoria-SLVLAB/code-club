@@ -1,5 +1,7 @@
 # Course contents
 
+**Disclaimer:** still under development
+
 Much of the content related to Python material has been adapted from sections of the excellent [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/2e/) by Al Sweigert.
 
 ## Python
@@ -13,7 +15,8 @@ Much of the content related to Python material has been adapted from sections of
 7. Working with dates
 8. Pattern matching and RegEx
 9. Pandas
-10. Jupyter notebooks
+10. Dash framework
+<!-- 11. Jupyter notebooks -->
 
 ## SQL
 

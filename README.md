@@ -4,12 +4,12 @@ This repo contains materials related to the State Library of Victoria's Code Clu
 
 ## Create a directory for your code
 
-It is useful to create a folder/directory for your code to live in. If you are using an SLV machine then (usually) your personal drive is mapped to the 'f' drive, therefore it's recommended to create your local code repo there.
+It is useful to create a folder/directory for your code to live in. If you are using an SLV machine then (usually) your personal drive is mapped to the `f:` drive, therefore it's recommended to create your local code repo there.
 
 You can use Git Bash to do so by following these steps:
 
 - open Git Bash
-- navigate to the 'f' drive: `cd /f/`
+- navigate to the f drive: `cd /f/`
 - create a new directory with a meaningful name e.g. 'development': `mkdir development`
 - navigate into the newly created folder: `cd development`
 
