@@ -12,7 +12,7 @@
 # * Expressions
 
 # * Expressions consist of values and operators which evaluate down to single value
-# print(2 + 2)
+print(2 + 2)
 # ! 'print' function will display the evaluation of 2 + 2 but does not store it in a variable (more on that shortly)
 
 # * Plenty of operators e.g. mathematical operators
