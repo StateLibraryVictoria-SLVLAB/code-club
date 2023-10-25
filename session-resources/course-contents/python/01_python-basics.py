@@ -1,4 +1,3 @@
-
 # * Python Basics
 
 # * Python files are saved with the .py file extension
@@ -33,7 +32,7 @@ print(2 + 2)
 # else:
 #     print(f'{number_to_check} is odd')
 
-# * Order of operations for maths operators is important 
+# * Order of operations for maths operators is important
 # ? PEMDAS i.e. parenthesis, exponents, multiplication, division, addition, subtraction
 # print(2 + 3 * 6) # 20
 # print((2 + 3) * 6) # 30
@@ -59,7 +58,7 @@ print(2 + 2)
 # * String Concatenation and Replication
 
 # * One reason data types are important is because they can affect how an operator will work
-# print('2' + '2') 
+# print('2' + '2')
 # print(2 + 2)
 
 # * If you mix string and number data types with the + operator you will get an error
@@ -92,12 +91,14 @@ print(2 + 2)
 
 # * Your first program
 
-print('What is your name?')
+print("What is your name?")
 my_name = input()
-print('It is good to meet you, ', my_name)
+print("It is good to meet you, ", my_name)
 # print(f'It is good to meet you, {my_name}') #? a more modern way of combining variables and strings
-print('The length of your name is: ')
-print(len(my_name)) # len returns the length of a given variable/value
-my_age = input('What is your age? ') # ? You can add a string to the input() function rather than create a sep print statement
-print(f'You will be {int(my_age) + 1} in a year')
+print("The length of your name is: ")
+print(len(my_name))  # len returns the length of a given variable/value
+my_age = input(
+    "What is your age? "
+)  # ? You can add a string to the input() function rather than create a sep print statement
+print(f"You will be {int(my_age) + 1} in a year")
 # ! note that the default type for an input is a str, so it needs to be converted to an int to allow for maths
