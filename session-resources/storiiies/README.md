@@ -12,7 +12,7 @@ Once you have retrieved a valid IIIF URL you can start exploring some IIIF-power
 
 ### Storiiies
 
-Head over to the Storiiies editor [https://storiiies-editor.cogapp.com/](https://storiiies-editor.cogapp.com/) and fill out the form by adding the IIIF image URL to the *IIIF manifest or info.json* box and filling out the rst of the form.
+Head over to the Storiiies editor [https://storiiies-editor.cogapp.com/](https://storiiies-editor.cogapp.com/) and fill out the form by adding the IIIF image URL to the *IIIF manifest or info.json* box and filling out the rest of the form.
 
 **Note:** if you use an SLV email account it is likely that the automated email from the Storiiies editor will land in your *junk* folder. However, it's important to retrieve it because it will contain a link to your story that enables you to edit and share the completed version.
 
