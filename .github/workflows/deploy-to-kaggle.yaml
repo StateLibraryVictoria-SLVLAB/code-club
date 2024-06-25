@@ -1,0 +1,12 @@
+name: Deploy Notebook to Kaggle
+run-name: ${{ github.actor }} is deploying a notebook to Kaggle
+
+on: 
+    push:
+        paths: ['session-resources/python-study-club/*.ipynb']
+
+jobs:
+    Echo-actor:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Job triggered by ${{ github.actor }}"
