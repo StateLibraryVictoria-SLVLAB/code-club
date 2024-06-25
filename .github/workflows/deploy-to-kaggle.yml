@@ -14,3 +14,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - run: echo "Job triggered by $KAGGLE_USERNAME"
+            - run: echo "Job triggered by ${{ env.KAGGLE_USERNAME }}"
