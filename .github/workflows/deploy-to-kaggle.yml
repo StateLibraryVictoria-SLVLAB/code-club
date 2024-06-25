@@ -5,8 +5,12 @@ on:
     push:
         paths: ['session-resources/python-study-club/*.ipynb']
 
+env:
+    if: github.actor == 'sotirios-slv'
+    KAGGLE_USERNAME: ${{ secrets.SOTIRIOS_KAGGLE_USERNAME }}
+
 jobs:
-    Echo-actor:
+    set-kaggle-credentials:
         runs-on: ubuntu-latest
         steps:
-            - run: echo "Job triggered by ${{ github.actor }}"
+            - run: echo "Job triggered by $KAGGLE_USERNAME"
