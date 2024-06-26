@@ -8,6 +8,7 @@ on:
 env:
     if: github.actor == 'sotirios-slv'
     KAGGLE_USERNAME: ${{ secrets.SOTIRIOS_KAGGLE_USERNAME }}
+    KAGGLE_KEY: ${{ secrets.SOTIRIOS_KAGGLE_KEY }}
 
 jobs:
     set-kaggle-credentials:
@@ -15,3 +16,26 @@ jobs:
         steps:
             - run: echo "Job triggered by $KAGGLE_USERNAME"
             - run: echo "Job triggered by ${{ env.KAGGLE_USERNAME }}"
+
+    build:
+        runs-on: ubuntu-latest
+        strategy:
+          matrix:
+            os: [ ubuntu-latest, macos-latest ]
+            python-version: [ '2.7.17', '3.6.10' ]
+        
+        name: Python ${{ matrix.python-version }} ${{ matrix.os }} 
+
+
+        steps:
+        - uses: actions/checkout@v2
+
+        - name: Push kernel to Kaggle
+          uses: joelhanson/kaggle-kernel-actions
+          with:
+            kaggle_username: ${{ env.KAGGLE_USERNAME }}
+            kaggle_key: ${{ env.KAGGLE_KEY }}
+            kaggle_make_new_kernel: true
+            # kaggle_metadata_path: kernel-metadata.json
+            # kernel_id: <username>/<kernel_slug>
+            # competition: titanic
