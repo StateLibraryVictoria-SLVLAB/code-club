@@ -12,7 +12,7 @@ Please feel free to consult a [SQL Tutorial](https://www.w3schools.com/sql/) or 
 
 ## Exercise
 #### Requirements & Setup
-1. Download the sqlite database file and save to your local machine: [sql-murder-mystery.db](starter-code/sql-murder-mystery.db)
+1. Download the sqlite database file and save to your local machine: [sql-murder-mystery.db](sql-murder-mystery.db)
 2. Navigate to [https://sqliteonline.com/](https://sqliteonline.com/) . This site will be used as a free online SQLite database environment. No account/signup is necessary.
 3. Load the SQLite database by clicking on `File` --> `Open DB` and selecting the `sql-murder-mystery.db` file
 4. Confirm that you can see nine table objects on the left hand pane.
