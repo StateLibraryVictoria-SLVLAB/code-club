@@ -12,6 +12,10 @@ Please feel free to consult a [SQL Tutorial](https://www.w3schools.com/sql/) or 
 
 ## Exercise
 #### Requirements & Setup
+Navigate to this URL in your preferred web browser:
+https://sqliteonline.com/#urldb=https://raw.githubusercontent.com/StateLibraryVictoria/code-club/main/session-resources/sql-murder-mystery/sql-murder-mystery.db
+
+If the above URL didn't work, please follow these steps:
 1. Download the sqlite database file and save to your local machine: [sql-murder-mystery.db](sql-murder-mystery.db)
 2. Navigate to [https://sqliteonline.com/](https://sqliteonline.com/) . This site will be used as a free online SQLite database environment. No account/signup is necessary.
 3. Load the SQLite database by clicking on `File` --> `Open DB` and selecting the `sql-murder-mystery.db` file
@@ -195,7 +199,11 @@ WHERE drivers_license.car_make = 'Tesla'
 AND drivers_license.car_model = 'Model S'
 AND drivers_license.hair_color = 'red'
 AND drivers_license.height between 65 AND 67
-AND drivers_license.gender = 'female';
+AND drivers_license.gender = 'female'
+AND facebook_event_checkin.event_name = 'SQL Symphony Concert'
+AND facebook_event_checkin.date LIKE '201712%'
+GROUP BY person.name
+HAVING COUNT(person.name) =3;
 
 -- Miranda Priestly
 INSERT INTO solution VALUES (1, 'Miranda Priestly');
